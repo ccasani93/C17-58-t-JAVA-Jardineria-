@@ -23,12 +23,12 @@ export const Header = () => {
         </div>
       </div>
       <div className="flex gap-3 mt-2">
-        <Link href="#" className=" text-white">Inicio |</Link>
-        <Link href="#" className="text-white">
+        <Link href="/" className=" text-white">Inicio |</Link>
+        <Link href="/Products" className="text-white">
           Productos |
         </Link>
-        <Link href="#" className="text-white">Como comprar |</Link>
-        <Link href="#" className="text-white">Contacto </Link>
+        <Link href="/Buy" className="text-white">Como comprar |</Link>
+        <Link href="/Contact" className="text-white">Contacto </Link>
       </div>
     </div>
   );
