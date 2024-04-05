@@ -1,8 +1,12 @@
+'use client'
 import { Link } from "@nextui-org/react";
 import Image from "next/image.js";
-import { CartIcon } from "../Icons/CartIcon.jsx";
-import { UserIcon } from "../Icons/UserIcon.jsx";
+// import { CartIcon } from "../Icons/CartIcon.jsx";
+// import { UserIcon } from "../Icons/UserIcon.jsx";
 import { Search } from "./Search";
+import { CartIcon } from "../Icons/CartIcon/CartIcon.jsx";
+import { UserIcon } from "../Icons/UserIcon/UserIcon.jsx";
+// import { Lordicon } from "../Icons/CartIcon/Lordicon.jsx";
 
 export const Header = () => {
   return (
@@ -13,7 +17,8 @@ export const Header = () => {
         <Image src="/logoRinconverde.png" width={100} height={100} alt="logo" />
         <Search />
         <div className="flex gap-3">
-          <CartIcon />
+          {/* <CartIcon /> */}
+          <CartIcon/>
           <UserIcon />
         </div>
       </div>
