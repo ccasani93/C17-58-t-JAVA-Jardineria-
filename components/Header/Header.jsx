@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { Link } from "@nextui-org/react";
 import Image from "next/image.js";
 // import { CartIcon } from "../Icons/CartIcon.jsx";
@@ -18,17 +18,23 @@ export const Header = () => {
         <Search />
         <div className="flex gap-3">
           {/* <CartIcon /> */}
-          <CartIcon/>
+          <CartIcon />
           <UserIcon />
         </div>
       </div>
       <div className="flex gap-3 mt-2">
-        <Link href="/" className=" text-white">Inicio |</Link>
+        <Link href="/" className=" text-white">
+          Inicio |
+        </Link>
         <Link href="/Products" className="text-white">
           Productos |
         </Link>
-        <Link href="/Buy" className="text-white">Como comprar |</Link>
-        <Link href="/Contact" className="text-white">Contacto </Link>
+        <Link href="/Buy" className="text-white">
+          Como comprar |
+        </Link>
+        <Link href="/Contact" className="text-white">
+          Contacto{" "}
+        </Link>
       </div>
     </div>
   );
