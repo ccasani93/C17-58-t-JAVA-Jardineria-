@@ -1,14 +1,13 @@
-import { Carousel } from "../../components/Carousel/Carousel";
+import { Footer } from "../../components/Footer/Footer";
 import { Header } from "../../components/Header/Header";
 import { HomePage } from "../../components/HomePage/HomePage";
-import { HowBuy } from "../../components/HowBuy/HowBuy";
-import { Products } from "../../components/Products/Products";
 
-export default function Home({ children }) {
+export default function Home() {
   return (
     <div className="bg-yellowMain h-[100%] w-[100%]">
       <Header />
       <HomePage />
+      <Footer/>
     </div>
   );
 }
