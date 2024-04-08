@@ -1,7 +1,9 @@
 import React from 'react'
-import { Carousel } from '../Carousel/Carousel'
-import { Products } from '../Products/Products'
-import { HowBuy } from '../HowBuy/HowBuy'
+import { Carousel } from './Carousel/Carousel'
+import { Products } from './Products/Products'
+import { HowBuy } from './HowBuy/HowBuy'
+import { Reviews } from './Reviews/Reviews'
+
 
 export const HomePage = () => {
   return (
@@ -9,7 +11,7 @@ export const HomePage = () => {
       <Carousel />
       <Products />
       <HowBuy />
-
+      <Reviews/>
     </>
   )
 }

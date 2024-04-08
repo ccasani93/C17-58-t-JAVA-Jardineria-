@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -14,10 +14,11 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --greenMain: #114232;
-  --yellowMain: #F7F6BB
+  --yellowMain: #f7f6bb;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: #114232;
+  font-family: "Poppins", sans-serif;
 }
