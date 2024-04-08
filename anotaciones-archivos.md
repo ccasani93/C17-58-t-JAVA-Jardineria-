@@ -2,7 +2,9 @@
 
 <script src="https://cdn.lordicon.com/lordicon.js"></script>
 
-ALERTA
+ERROR
+https://lordicon.com/icons/system/regular?group=free
+
 <lord-icon
     src="https://cdn.lordicon.com/ygvjgdmk.json"
     trigger="hover"
@@ -10,14 +12,16 @@ ALERTA
     style="width:250px;height:250px">
 </lord-icon>
 
-BASURA
+TRASH
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/wpyrrmcq.json"
     trigger="hover"
     style="width:250px;height:250px">
 </lord-icon>
 
-BUSCAR
+SEARCH
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/kkvxgpti.json"
     trigger="hover"
@@ -25,7 +29,8 @@ BUSCAR
     style="width:250px;height:250px">
 </lord-icon>
 
-CARRITO
+SHOPPING
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/mfmkufkr.json"
     trigger="hover"
@@ -33,7 +38,8 @@ CARRITO
     style="width:250px;height:250px">
 </lord-icon>
 
-TILDE
+CHECK
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/oqdmuxru.json"
     trigger="hover"
@@ -41,7 +47,8 @@ TILDE
     style="width:250px;height:250px">
 </lord-icon>
 
-FLECHA
+FLAT ARROW
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/vduvxizq.json"
     trigger="hover"
@@ -49,7 +56,8 @@ FLECHA
     style="width:250px;height:250px">
 </lord-icon>
 
-FLECHA IZQUIERDA SLIDER
+ARROW UP
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/dwoxxgps.json"
     trigger="hover"
@@ -57,7 +65,8 @@ FLECHA IZQUIERDA SLIDER
     style="width:250px;height:250px">
 </lord-icon>
 
-FLECHA DERECHA SLIDER
+ARROW DOWN
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/rmkahxvq.json"
     trigger="hover"
@@ -65,7 +74,8 @@ FLECHA DERECHA SLIDER
     style="width:250px;height:250px">
 </lord-icon>
 
-OJO
+EYE
+https://lordicon.com/icons/wired/outline?group=free
 <lord-icon
     src="https://cdn.lordicon.com/vfczflna.json"
     trigger="click"
@@ -73,7 +83,8 @@ OJO
     style="width:250px;height:250px">
 </lord-icon>
 
-USUARIO
+AVATAR
+https://lordicon.com/icons/system/regular?group=free
 <lord-icon
     src="https://cdn.lordicon.com/kthelypq.json"
     trigger="hover"
@@ -81,7 +92,8 @@ USUARIO
     style="width:250px;height:250px">
 </lord-icon>
 
-SALIR
+EXIT SING
+https://lordicon.com/icons/wired/outline?group=free
 <lord-icon
     src="https://cdn.lordicon.com/gwvmctbb.json"
     trigger="hover"
