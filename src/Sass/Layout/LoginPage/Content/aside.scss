@@ -1,0 +1,48 @@
+@import "../../../Fonts/fonts";
+@import "../../../Base/variables";
+@import "../../../Base/colors";
+@import "../../../Utils/mixins";
+@import "../../../Base/general";
+
+aside{
+    background-image: url("../../../../../img/descargar\ \(85\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include deviceSize-smartphone {
+        width: 100%;
+    }
+
+    span{
+        aspect-ratio: 1 / 1;
+        height: 80%;
+        display: block;
+        background: radial-gradient($secundarylColor50, rgba(000, 000, 000, 0));
+        border-radius: 50%;
+        filter: blur(20px);
+
+        @include deviceSize-smartphone {
+            display: none;
+        }
+    }
+
+    h1{
+        position: absolute;
+        color: $white;
+        display: inline-block;
+        width: 300px;
+        text-align: center;
+        text-shadow: 0 4px 4px $black;
+
+        @include deviceSize-smartphone {
+            display: none;
+        }
+    }
+}

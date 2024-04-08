@@ -1,0 +1,117 @@
+@import "../../../Fonts/fonts";
+@import "../../../Base/variables";
+@import "../../../Base/colors";
+@import "../../../Utils/mixins";
+@import "../../../Base/general";
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    background-color: $backgroundColor;
+
+    @include deviceSize-smartphone {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        background-color: $white;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-right: 50px;
+
+    @include deviceSize-smartphone {
+        position: absolute;
+        padding: 50px 36px 100px 36px;
+        height: auto;
+        background-color: $backgroundColor;
+        box-shadow: 0 4px 4px $secundarylColor;
+        border-radius: 20px;
+    }
+
+    img{
+        width: 237px;
+    }
+
+    h2{
+        margin: 20px 0;
+        display: inline-block;
+        width: 470px;
+    }
+
+    form{
+        width: 470px;
+        display: flex;
+        flex-direction: column;
+        
+        #input{
+            width: 100%;
+
+            input{
+                width: 100%;
+                border: 0;
+                background-color: $white;
+                border-radius: 8px;
+                height: 38px;
+                margin-bottom: 20px;
+                padding: 0 10px 0 10px ;
+            }
+
+            .eye{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                transform: translate(-40px , 4px);
+                cursor: pointer;
+            }
+        }
+
+        #forgotPassword{
+            text-align: end;
+
+            a{
+                font-weight: 700;
+                font-style: italic;
+                text-decoration: underline;
+            }
+        }
+
+        #submit{
+            font-size: $fontSize-H4;
+            padding: 6px 181px;
+            background-color: $secundarylColor50;
+            color: $backgroundColor;
+            border: solid 1px $secundarylColor;
+            border-radius: 8px;
+            margin: 20px 0;
+            cursor: pointer;
+            transition: .5s;
+
+            &:hover{
+                color: $secundarylColor;
+                background-color: $backgroundColor50;
+            }
+        }
+
+        #createAccount{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            a{
+                font-weight: 700;
+            }
+        }
+    }
+}

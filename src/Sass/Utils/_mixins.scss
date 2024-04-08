@@ -1,0 +1,13 @@
+@import "../Base/variables";
+
+@mixin deviceSize-desktop {
+    @media (max-width: $deviceSize-desktop) {
+        @content;
+    }
+}
+
+@mixin deviceSize-smartphone {
+    @media (max-width: $deviceSize-smartphone) {
+        @content;
+    }
+}

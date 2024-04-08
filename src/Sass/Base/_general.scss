@@ -1,0 +1,40 @@
+@import "../Fonts/_fonts";
+@import "../Base/_colors";
+@import "../Base/_variables";
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $tipografia;
+    color: $black;
+}
+
+h1{
+    font-size: $fontSize-H1;
+}
+
+h2{
+    font-size: $fontSize-H2;
+}
+
+h3{
+    font-size: $fontSize-H3;
+}
+
+h4{
+    font-size: $fontSize-H4;
+}
+
+p{
+    font-size: $fontSize-ParagraphM;
+}
+
+a{
+    font-size: $fontSize-ParagraphM;
+    text-decoration: none;
+}
+
+input{
+    font-size: $fontSize-input;
+}
